@@ -1,0 +1,14 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: api-passenger
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@eureka-7901:7901/eureka/
+  instance:
+    hostname: api-passenger
